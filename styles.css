@@ -1,0 +1,86 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensure the header is above other content */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #816f6f;
+    padding-top: 8rem; /* Adjust to ensure content is not hidden under the fixed header */
+    text-align: center;
+}
+
+.cover-image img {
+    width: 100%;
+    height: auto;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+.intro p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#about, #features, #contact {
+    margin-top: 2rem;
+}
